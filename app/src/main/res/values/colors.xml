@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#393939</color>
+    <color name="colorPrimaryDark">#2f2f2f</color>
+    <color name="item">#393939</color>
+    <color name="colorAccent">#6d749f</color>
+    <color name="backgroundFragment">#2b2b2b</color>
+    <color name="colorRed">#ff3943</color>
+    <color name="Reddark">#801b20</color>
+    <color name="greenlight">#abffc0</color>
+    <color name="Green">#247b37</color>
+    <color name="white">#ffffff</color>
+    <color name="green1">#3ab959</color>
+    <color name="toty">#6d749f</color>
+    <color name="totyyy">#646464</color>
+    <color name="tot">#FFACB3E1</color>
+</resources>

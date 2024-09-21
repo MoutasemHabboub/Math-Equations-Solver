@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <item android:title="Learning">
+
+        <menu>
+            <item
+                android:id="@+id/Solving"
+                android:icon="@drawable/mortarboard"
+                android:title="Solving Equation" >
+                </item>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Algebra">
+        <menu>
+            <item
+                android:id="@+id/Solve_Equation"
+                android:icon="@drawable/function"
+                android:title="Solve Equation" />
+            <item
+                android:id="@+id/multi"
+                android:icon="@drawable/mult"
+                android:title="Multi Variable" />
+            <item
+                android:id="@+id/Graph"
+                android:icon="@drawable/maths"
+                android:title="Graph" />
+            <item
+                android:id="@+id/Matrix"
+                android:icon="@drawable/locator"
+                android:title="Matrix" />
+            <item
+                android:id="@+id/Unit_Converter"
+                android:icon="@drawable/conv"
+                android:title="Unit Converter" />
+            <item
+                android:id="@+id/Scien_cal"
+                android:icon="@drawable/calculato"
+                android:title="Scientific Calculator" />
+            <item
+                android:id="@+id/Base_cal"
+                android:icon="@drawable/calculator"
+                android:title="Base Calculator" />
+
+        </menu>
+    </item>
+    <item android:title="Number Theory">
+        <menu>
+            <item
+                android:id="@+id/Prime_Factor"
+                android:icon="@drawable/code"
+                android:title="Prime Factor" />
+            <item
+                android:id="@+id/Modulo"
+                android:icon="@drawable/moddd"
+                android:title="Modulo" />
+            <item
+                android:id="@+id/Prim_Number"
+                android:icon="@drawable/winner"
+                android:title="Prim_Number" />
+            <item
+                android:id="@+id/Divisor"
+                android:icon="@drawable/division"
+                app:showAsAction="withText"
+                android:title="Divisor" />
+            <item
+                android:id="@+id/PI_number"
+                android:icon="@drawable/pii"
+                android:title="PI Number" />
+            <item
+                android:id="@+id/Fibo_num"
+                android:icon="@drawable/counting"
+                android:title="Fibonacci Number" />
+        </menu>
+    </item>
+    <item android:title="Analytic">
+        <menu>
+            <item
+                android:id="@+id/Integrate"
+                android:icon="@drawable/integral"
+                android:title="Integrate" />
+            <item
+                android:id="@+id/Div"
+                android:icon="@drawable/eternity"
+                android:title="Drivation" />
+            <item
+                android:id="@+id/Limit"
+                android:icon="@drawable/eternity"
+                android:title="Find Limit" />
+        </menu>
+    </item>
+
+
+</menu>

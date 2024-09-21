@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drivation"
+        android:textSize="35dp"
+        android:textColor="@color/toty"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="80dp"
+        android:fontFamily="casual"
+        android:text="Enter the Exeprsion :"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp">
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textViewdriv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/driv_result"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="57dp"
+        android:fontFamily="casual"
+        android:hint="Result of drivation"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="21dp" />
+
+    <Button
+        android:id="@+id/driv_result"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginBottom="51dp"
+        android:layout_marginStart="39dp"
+        android:background="@drawable/btn_change"
+        android:fontFamily="casual"
+        android:text="Result"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/clrdriv"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/driv_result"
+        android:layout_alignBottom="@+id/driv_result"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/btn_change"
+        android:fontFamily="casual"
+        android:text="Clear"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextdriv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="21dp" />
+
+
+</RelativeLayout>

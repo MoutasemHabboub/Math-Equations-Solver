@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout"
+            android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/howEq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="How much Equation do you want to enter"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:inputType="number"
+                android:hint="number of equation"
+                android:textColor="@color/white" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+        </LinearLayout>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/tsolvemunlt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:hint="solve"
+                android:textSize="20dp" />
+        </ScrollView>
+    </LinearLayout>-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:layout_weight="0"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Goo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/bsolvemult"
+        android:layout_alignStart="@+id/bsolvemult"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/btn_change"
+        android:fontFamily="casual"
+        android:text="Go"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bsolvemult"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/bshowmult"
+        android:layout_alignStart="@+id/bshowmult"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/btn_change"
+        android:fontFamily="casual"
+        android:text="solve"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bshowmult"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/clearmunlt"
+        android:layout_alignStart="@+id/clearmunlt"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/btn_change"
+        android:fontFamily="casual"
+        android:text="Show steps"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/clearmunlt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/btn_change"
+        android:fontFamily="casual"
+        android:text="Clear"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+</LinearLayout>
